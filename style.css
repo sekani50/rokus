@@ -22,7 +22,6 @@
     width: 80%;
     min-height: 100%;
     height: 100%;
-    border: 1px solid black;
 }
     */
 .first::after {
@@ -53,7 +52,6 @@ label {
 
 .gender,.birth, .name,.email,.passcode {
     width: 90%;
-    border: 1px solid red;
     height:60px;
     max-height:62px;
     line-height:1em;
@@ -106,7 +104,6 @@ label {
     height: 76%;
     max-height: 76%;
     width: 50%;
-    border: 1px solid blue;
     display:none;
 }
 
