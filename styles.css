@@ -34,7 +34,7 @@
     cursor:pointer;
 }
 /**/
-.third {
+.third, #dash-toggle {
     float: left;
     height: 100%;
     width: 18%;
