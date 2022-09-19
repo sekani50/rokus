@@ -1,0 +1,317 @@
+﻿body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(to right,#5F0A87,#A4508B);
+}
+
+#container {
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    width: 60%;
+    height: 65%;
+    min-height: 450px;
+    min-width: 400px;
+    background: #F8ECF8;
+    box-shadow: 6px grey;
+    border-radius: 10px;
+    display: flex;
+}
+
+
+
+.second {
+    height: 100%;
+    width: 3%;
+    background: #771484;
+}
+
+.menu {
+    width: 90%;
+    height: 15px;
+    margin-top: 50%;
+    margin-left: 15%;
+    cursor: pointer;
+}
+    .navig {
+    width: 15px;
+    height: 15px;
+    filter: grayscale(100%) brightness(40%) sepia(50%) hue-rotate(-100deg) saturate(500%) contrast(1);
+    margin-top: 11em;
+    padding-left:5px;
+    display:none;
+}
+
+.third {
+    float: left;
+    height: 100%;
+    width: 18%;
+    background: #771484;
+    margin-right: 25px;
+    display: none;
+}
+
+    .third::after {
+        clear: both;
+    }
+
+nav {
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+    img:hover {
+        filter: grayscale(100%) brightness(40%) sepia(50%) hue-rotate(-100deg) saturate(500%) contrast(1);
+    }
+
+.htm-link {
+    padding-bottom: 60px;
+}
+
+.first {
+    height: 100%;
+    width: 95%;
+    border: 1px solid black;
+    margin-left: 5px;
+ 
+}
+
+h1 {
+    color: purple;
+    font-family: 'Trebuchet MS';
+    margin-top: 4px;
+    float: right;
+    margin-right: 10px;
+}
+
+h2 {
+    color: purple;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.debit {
+    width: 85%;
+    height: 20%;
+    border: 1px solid blue;
+    margin-top: -15px;
+   
+}
+.method {
+    font-size:15px;
+    font-weight:400;
+    font-family: Bahnschrift;
+    color:dimgray;
+   
+}
+
+
+.billing {
+    width:100%;
+    height:53%;
+    border: 1px solid red;
+    display:block;
+    overflow:auto;
+}
+.stag-head, .edit-head {
+    letter-spacing: 1px;
+    color: dimgrey;
+    text-transform: uppercase;
+    font-family: Bahnschrift;
+    font-size: 10px;
+}
+
+.stag-text {
+    font-weight: 200;
+    color: dimgray;
+    font-size: 20px;
+    letter-spacing:2px;
+    margin-top:-1px;
+    width:70%;
+    border-bottom:1px solid purple;
+}
+.btn {
+    float: right;
+    margin-right:30px;
+    color: purple;
+    background: #F8ECF8;
+    border: 1px solid purple;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+    .btn:hover {
+        background: #ECDCF8;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .btn::after {
+        clear: both;
+    }
+
+#card-edit {
+    margin-top:-5px;
+    border: 1px solid red;
+    padding:20px;
+    display:none;
+}
+
+.name-input {
+    width: 70%;
+    height: 22px;
+    color: dimgrey;
+    background: inherit;
+    border: 1px solid dimgrey;
+}
+
+.cn {
+    width: 70%;
+    height: 22px;
+    color: dimgrey;
+    background: inherit;
+    border: 1px solid dimgrey;
+}
+.exp-day {
+    width: 40px;
+    height: 22px;
+    color: dimgrey;
+    background: inherit;
+    border:1px solid dimgrey;
+}
+.exp-year {
+    width: 40px;
+    height: 22px;
+    color: dimgrey;
+    background: inherit;
+    border: 1px solid dimgrey;
+}
+/*chrome, safari, edge*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/*mozilla*/
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+input {
+    border-radius:3px;
+    letter-spacing:1.5px;
+}
+input:focus {
+    outline:none;
+    border:1px thin purple;
+}
+.paypal-edit {
+    display:none;
+}
+.text{
+    text-align:center;
+    font-weight:300;
+    
+
+}
+.proceed {
+    color: purple;
+    background: #F8ECF8;
+    border: 1px solid purple;
+    width: 65px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left:20em;
+    margin-top:2em;
+}
+
+.proceed:hover {
+    background: #ECDCF8;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sec-code {
+    width: 80px;
+    background: inherit;
+    height: 22px;
+    color: dimgrey;
+    border: 1px solid dimgrey;
+}
+
+input[type="radio"]#wirred {
+    accent-color: purple;
+    width: 18px;
+    height: 18px;
+    margin-left:10em;
+}
+
+
+input[type="radio"]#debit-card {
+    accent-color: purple;
+    width: 18px;
+    height: 18px;
+}
+
+
+.radio-text {
+    font-weight: 300;
+    font-size: 20px;
+    color: dimgrey;
+}
+.name-input {
+    width: 70%;
+    height: 22px;
+    color: dimgrey;
+    background: inherit;
+    border: 1px solid dimgrey;
+}
+.bill-edit {
+    display: none;
+    width:100%;
+    height:250px;
+    overflow:auto;
+}
+.sub {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+div[class="bill-edit"] input {
+    height: 22px;
+    color: dimgrey;
+    background: inherit;
+    border: 1px solid dimgrey;
+}
+.bill-lname {
+    width: 25%;
+
+
+}
+.bill-fname {
+    width: 25%;
+  
+}
+.bill-address {
+    width: 50%;
+  
+}
+.bill-city {
+    width: 25%;
+   
+}
+.bill-zip {
+    width:25%;
+
+}
+#country {
+    width:20%;
+}
+
+

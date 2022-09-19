@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <link rel="stylesheet" href="subStyle.css" />
+    <title>Roku</title>
+    <style>
+        #sub-table {
+            height:300px;
+        }
+        #container {
+            min-height:450px;
+        }
+        .first {
+            height: 100%;
+            width: 95%;
+            border: 1px solid black;
+            margin-left: 5px;
+        }
+        #sub-table td, #sub-table th {
+            border: 1px solid #ddd;
+            padding: 0.1%;
+        }
+
+        #sub-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #sub-table tr:hover {
+            background-color: #ddd;
+        }
+
+        #sub-table th {
+            padding-top: 0.3%;
+            padding-bottom:0.3%;
+            text-align: left;
+            background-color: #771484;
+            color: #F7EFFA;
+        }
+        #sub-btn {
+            color: purple;
+            background: #F8ECF8;
+            font-size: 9px;
+            border: 1px solid purple;
+            width: 60px;
+            height: 30px;
+            border-radius: 10px;
+            text-align:center;
+        }
+        #tv {
+            width: 40px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+
+        <div class="second">
+            <img class="menu" id="menu" src="icons/menu.jpg" />
+        </div>
+
+
+        <div class="third" id="dash-toggle">
+            <nav>
+                <p class="htm-link"><a href="personal.html"><img id="im-icon" src="icons/male-icon.png" /></a></p>
+                <p class="htm-link"><a href="subscription.html"><img id="im-icon" src="icons/subscribe.png" /></a></p>
+                <p class="htm-link"><a href="payment.html"><img id="im-icon" src="icons/credit-card.png" /></a></p>
+                <p class="htm-link"><a href="Settings.html"><img id="im-icon" src="icons/setting-icon.png" /></a></p>
+            </nav>
+        </div>
+
+
+        <div class="first">
+            <div class="headers">
+                <h1>Roku</h1><br />
+                <h2>Subscription</h2>
+            </div>
+
+            <p class="sub-head">Subscription are prepaid, non-refundable and will auto renew until unsubscribed</p>
+
+            <table id="sub-table">
+                <tr>
+                    <th>Subscription</th>
+                    <th>Term</th>
+                    <th>Status</th>
+                    <th>Valid Through</th>
+                    <th></th>
+                </tr>
+
+                <tr>
+                    <td><img id="tv" src="icons/hbo.png" /> HBO NOW</td>
+                    <td>$14.99/month</td>
+                    <td>Active</td>
+                    <td>11/13/2022</td>
+                    <td><input type="submit" id="sub-btn" value="Unsubscribe" /></td>
+                </tr>
+                <tr>
+                    <td><img id="tv" src="icons/showtime.jpeg" /> Showtime</td>
+                    <td>$10.96/month</td>
+                    <td>Active</td>
+                    <td>11/20/2022</td>
+                    <td><input type="submit" id="sub-btn" value="Unsubscribe" /></td>
+                </tr>
+                <tr>
+                    <td><img id="tv" src="icons/cbs.png" /> CBS All Access Commercial Free</td>
+                    <td>$9.99/month</td>
+                    <td>Active</td>
+                    <td>10/13/2021</td>
+                    <td><input type="submit" id="sub-btn" value="Unsubscribe" /></td>
+                </tr>
+                <tr>
+                    <td><img id="tv" src="icons/cbs.png" /> Acorn TV</td>
+                    <td>$49.99/month</td>
+                    <td>Cancelled</td>
+                    <td>11/12/2021</td>
+                    <td><input type="submit" id="sub-btn" value="Renew" /></td>
+                </tr>
+                <tr>
+                    <td><img id="tv" src="icons/boom.png" /> Boomerang Membership</td>
+                    <td>$29.99/month</td>
+                    <td>Active</td>
+                    <td>12/12/2022</td>
+                    <td><input type="submit" id="sub-btn" value="Unsubscribe" /></td>
+                </tr>
+
+
+
+            </table>
+            <!--<button class="done">Done</button>-->
+            <!--<button class="next">Next</button>-->
+
+        </div>
+        
+    </div>
+
+
+
+    <script src="subScript.js"></script>
+
+</body>
+</html>

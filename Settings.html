@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Roku</title>
+    <link rel="stylesheet" href="settings.css" />
+    <style>
+        nav {
+            margin-left: 30%;
+            margin-top: 40%;
+        }
+
+        #container {
+            position: fixed;
+            top: 20%;
+            left: 20%;
+            width: 60%;
+            height: 65%;
+            min-height: 450px;
+            min-width: 400px;
+            background: #F8ECF8;
+            box-shadow: 6px grey;
+            border-radius: 10px;
+            display: flex;
+        }
+
+        .second {
+            height: 100%;
+            width: 3%;
+            background: #771484;
+        }
+
+        .menu {
+            width: 90%;
+            height: 15px;
+            margin-top: 50%;
+            margin-left: 15%;
+            cursor: pointer;
+        }
+
+        .third {
+            float: left;
+            height: 100%;
+            width: 18%;
+            background: #771484;
+            margin-right: 25px;
+            display: none;
+        }
+        select {
+            width: 50%;
+            font-size:70%;
+        }
+        option {
+            width:70%;
+            height:10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+
+        <div class="second">
+            <img class="menu" id="menu" src="icons/menu.jpg" />
+        </div>
+
+        <div class="third" id="dash-toggle">
+            <nav>
+                <p class="htm-link"><a href="personal.html"><img id="im-icon" src="icons/male-icon.png" /></a></p>
+                <p class="htm-link"><a href="subscription.html"><img id="im-icon" src="icons/subscribe.png" /></a></p>
+                <p class="htm-link"><a href="payment.html"><img id="im-icon" src="icons/credit-card.png" /></a></p>
+                <p class="htm-link"><a href="Settings.html"><img id="im-icon" src="icons/setting-icon.png" /></a></p>
+            </nav>
+
+        </div>
+        <div class="first">
+            <div class="headers">
+                <h1>Roku</h1><br />
+                <h2>Personal Settings</h2>
+            </div>
+            <div class="pin-set">
+                <p class="pees"> Pin Setting: </p>
+                <select name="customize-pin">
+                    <option value="a">Pin is required when using your roku account to make purchase</option>
+                    <option value="b">Pin is required only when using your Roku account to make purchase</option>
+                    <option value="c">Pin is not required when using your Roku account to make purchases</option>
+                </select>
+            </div>
+            <div class="parent">
+                <p class="pees">Parental Control for Roku Channel</p>
+                <input type="radio" class="y-parent" id="y-control" name="restrict" value="No" checked />
+                <label for="y-control" class="radio-text">Off</label>
+                <input type="radio" class="y-parent" id="n-control" name="restrict" value="Yes" />
+                <label for="n-control" class="radio-text">Little Kids</label>
+            </div>
+            <div class="mode">
+                <p class="pees">Night Mode</p>
+                <input type="radio" class="yn-mode" id="y-night" name="mode" value="On"/>
+                <label for="y-night" class="radio-text"> On</label>
+                <input type="radio" class="nn-mode" id="n-night" name="mode" value="Off" checked/>
+                <label for="n-night" class="radio-text"> Off</label>
+            </div>
+            <div class="history">
+                <p class="pees">Save Channel History</p>
+                <input type="radio" id="y-history" name="history" value="Yes" checked />
+                <label for="y-history" class="radio-text">Yes</label>
+                <input type="radio" id="n-history" name="history" value="No"/>
+                <label for="n-history" class="radio-text">No</label>
+            </div>
+        
+
+
+
+        </div>
+        
+    </div>
+
+    <script src="settings.js"></script>
+
+</body>
+</html>

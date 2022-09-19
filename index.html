@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width initial-scale=1.0"/>
+    <title>Roku</title>
+    <style>
+       @media(max-width:700px) {
+           .btn {
+               width:60px;
+               height:28px;
+           }
+        .inputs-btn {
+            width: 60px;
+            height: 28px;
+        }
+       }
+        #container {
+            min-height: 400px;
+        }
+    </style>
+</head>
+<body>
+  
+    <div id="container">
+
+        <div class="second">
+            <img class="menu" id="menu" src="icons/menu.jpg" />
+        </div>
+
+        <div class="third" id="dash-toggle">
+            <nav>
+                <p class="htm-link"><a href="personal.html"><img id="im-icon" src="icons/male-icon.png" /></a></p>
+                <p class="htm-link"><a href="subscription.html"><img id="im-icon" src="icons/subscribe.png" /></a></p>
+                <p class="htm-link"><a href="payment.html"><img id="im-icon" src="icons/credit-card.png" /></a></p>
+                <p class="htm-link"><a href="Settings.html"><img id="im-icon" src="icons/setting-icon.png" /></a></p>
+            </nav>
+
+        </div>
+
+
+
+        <div class="first" id="first">
+            <div class="headers">
+                <h1>Roku</h1><br />
+                <h2>Personal Info</h2>
+            </div>
+
+            <div class="name" id="name">
+                <p class="span-first">Full Name:</p>
+                <p class="span-second" id="stag-name">William Fade</p>
+                <form class="input-parent name-input" id="name-input" name="form1">
+                    <input type='text' class='inputs' name="name" id='get-name' required />
+                    <button type="submit" class="inputs-btn" id="update-name" name="submit-">Update</button>
+
+                </form>
+                <button class="btn" id="name-btn">Edit</button>
+            </div>
+
+            <div class="email" id="email">
+                <p class="span-first">Email Address:</p>
+                <p class="span-second" id="stag-email">fake@yahoo.com</p>
+                <form class="input-parent email-input" id="email-input" name="form2">
+                    <input type="email" class="inputs" name="email" id="get-email" required />
+                    <button type="submit" class="inputs-btn" id="update-email" name="submit-">Update</button>
+
+                </form>
+                <button class="btn" id="email-btn">Edit</button>
+            </div>
+
+            <div class="birth">
+                <p class="span-first">Birthday:</p>
+                <p class="span-second">20-04-2022</p>
+            </div>
+            <div class="gender">
+                <p class="span-first">Gender:</p>
+                <p class="span-second">Male</p>
+            </div>
+            <div class="passcode" id="passcode">
+                <p class="span-first">Password</p>
+                <p class="span-second" id="stag-pass">*****</p>
+                <form class="input-parent pass-edit" id="pass-edit" name="form3">
+                    <input type="password" class="inputs" name="password" id="get-pass" max="8" />
+                    <button type="submit" class="inputs-btn" id="update-pass" name="submit-">Update</button>
+
+                </form>
+                <button class="btn" id="pass-btn">Change</button>
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+
+    <script src="roku.js"></script>
+
+</body>
+</html>

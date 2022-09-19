@@ -1,0 +1,137 @@
+﻿body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(to right,#5F0A87,#A4508B);
+}
+
+#container {
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    width: 60%;
+    height: 65%;
+    background: #F8ECF8;
+    box-shadow: 6px grey;
+    border-radius: 10px;
+    display: flex;
+}
+
+
+
+.second {
+    height: 100%;
+    width: 25px;
+    background: #771484;
+}
+
+.menu {
+    width: 20px;
+    height: 20px;
+    margin-top: 50%;
+}
+
+.third {
+    float: left;
+    height: 100%;
+    width: 110px;
+    background: #771484;
+    margin-right: 25px;
+    display: block;
+}
+
+option {
+    width:70%;
+}
+
+    .third::after {
+        clear: both;
+    }
+
+nav {
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+    img:hover {
+        filter: grayscale(100%) brightness(40%) sepia(50%) hue-rotate(-100deg) saturate(500%) contrast(1);
+    }
+
+.htm-link {
+    padding-bottom: 60px;
+}
+
+
+
+.first {
+    height: 100%;
+    width: 95%;
+    margin-left: 10px;
+}
+
+h1 {
+    color: purple;
+    font-family: 'Trebuchet MS';
+    margin-top: 4px;
+    float: right;
+    margin-right: 10px;
+}
+
+h2 {
+    color: purple;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.pees {
+    font-size:18px;
+    font-weight:300;
+}
+input[type="radio"]#y-control {
+    accent-color: purple;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+input[type="radio"]#n-control {
+    accent-color: purple;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+input[type="radio"]#y-night {
+    accent-color: purple;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+input[type="radio"]#n-night {
+    accent-color: purple;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+input[type="radio"]#y-history {
+    accent-color: purple;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+input[type="radio"]#n-history {
+    accent-color: purple;
+    width: 18px;
+    height: 18px;
+    cursor:pointer;
+}
+
+
+.radio-text {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.first div {
+    margin-bottom:15px;
+}

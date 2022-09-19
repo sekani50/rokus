@@ -1,0 +1,169 @@
+﻿body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(to right,#5F0A87,#A4508B);
+}
+
+#container {
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    width: 60%;
+    height: 65%;
+    min-width: 400px;
+    background: #F8ECF8;
+    box-shadow: 6px grey;
+    border-radius: 10px;
+    display: flex;
+}
+
+.sub-head {
+    margin-top:-15px;
+    padding-left:5px;
+    font-weight:300;
+}
+
+.second {
+    height: 100%;
+    width:3%;
+    background: #771484;
+}
+
+.menu {
+    width: 90%;
+    height: 15px;
+    margin-top: 50%;
+    margin-left: 15%;
+    cursor: pointer;
+}
+
+.third {
+    float: left;
+    height: 100%;
+    width: 18%;
+    background: #771484;
+    margin-right: 25px;
+    display:none;
+}
+
+    .third::after {
+        clear: both;
+    }
+
+nav {
+    margin-left: 30%;
+    margin-top: 40%;
+}
+
+#im-icon {
+    width: 30px;
+    height: 30px;
+}
+
+    img:hover {
+        filter: grayscale(100%) brightness(40%) sepia(50%) hue-rotate(-100deg) saturate(500%) contrast(1);
+    }
+
+.htm-link {
+    padding-bottom: 60px;
+}
+
+
+.first {
+    height: 100%;
+    width: 95%;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+
+h1 {
+    color: purple;
+    font-family: 'Trebuchet MS';
+    margin-top: 4px;
+    float: right;
+    margin-right: 10px;
+}
+
+h2 {
+    color: purple;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#sub-table {
+    border-collapse:collapse;
+    width:100%;
+    height:20%;
+}
+
+#sub-table td, #sub-table th {
+    border: 1px solid #ddd;
+    padding:2%;
+}
+
+#sub-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#sub-table tr:hover {
+    background-color: #ddd;
+}
+
+#sub-table th {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: left;
+    background-color:#771484;
+    color:#F7EFFA;
+}
+
+tr>td:nth-child(1) {
+    font-weight:600;
+
+}
+
+tr>td:nth-child(2) {
+    font-weight: 300;
+}
+
+tr > td:nth-child(3) {
+    font-weight: 300;
+}
+
+tr > td:nth-child(4) {
+    font-weight: 300;
+}
+
+#tv {
+    width:50px;
+    height:30px;
+}
+button{
+    color: purple;
+    background: #F8ECF8;
+    border: 1px solid purple;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#sub-btn {
+    color: purple;
+    background: #F8ECF8;
+    font-size:10px;
+    border: 1px solid purple;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+button:hover, #sub-btn:hover {
+    background: #ECDCF8;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.next {
+    float:right;
+    margin-top:5px;
+    margin-right:10px;
+}
